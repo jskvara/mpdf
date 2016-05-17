@@ -77,7 +77,7 @@ class Cache
 
 	public function isDotFile(DirectoryIterator $item)
 	{
-		return substr($item->getFilename(), 0, 1) !== '.';
+		return substr($item->getFilename(), 0, 1) === '.';
 	}
 
 }
