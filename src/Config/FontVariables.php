@@ -287,6 +287,10 @@ class FontVariables
 				"unbatang" => [/* Korean */
 					'R' => "UnBatang_0613.ttf",
 				],
+				"opensans" => [
+					'R' => 'OpenSans-Regular.ttf',
+					'B' => "OpenSans-Bold.ttf",
+				],
 			],
 
 			// Add fonts to this array if they contain characters in the SIP or SMP Unicode planes
